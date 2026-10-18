@@ -1,0 +1,30 @@
+{
+  "name": "freelance-tax-js",
+  "version": "1.0.0",
+  "description": "Estimate US self-employment tax (15.3%) on freelance net profit -- Social Security + Medicare, deductible half, quarterly payment. Zero dependencies, runs via npx straight from GitHub. Not tax advice.",
+  "bin": {
+    "freelance-tax": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT",
+  "author": "kleogeos",
+  "keywords": [
+    "freelance",
+    "tax",
+    "self-employment-tax",
+    "cli",
+    "zero-dependencies",
+    "npx"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kleogeos/freelance-tax-js"
+  },
+  "homepage": "https://kleogeos.github.io/freelancer-tools/"
+}
